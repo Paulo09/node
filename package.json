@@ -5,9 +5,12 @@
   "scripts": {
     "start": "nodemon server.js"
   },
-  "name": "paulo",
+  "name": "nome",
   "version": "1.0.0",
-  "main": "modulo.js",
+  "main": "server.js",
+
+  "type": "module",
+
   "devDependencies": {},
   "keywords": [],
   "author": "",
