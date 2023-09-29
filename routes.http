@@ -4,7 +4,14 @@ GET http://localhost:5000/produtos
 POST http://localhost:5000/produto
 
 ###
-GET http://localhost:5000/produto/92061508-5e91-48c6-bddb-6952e0e44a49
+GET http://localhost:5000/produto/9d387e84-c995-4f54-854e-84c637a15e01
 
 ###
-PUT http://localhost:5000/produto/92061508-5e91-48c6-bddb-6952e0e44a49
+PUT http://localhost:5000/produto/b8551173-2862-470e-8da1-23f37d4886d2
+Content-Type: 'application/json'
+
+{
+    "nome": "Nike Atualizado",
+    "modelo": "Air Force 2",
+    "preco": 2800
+}
