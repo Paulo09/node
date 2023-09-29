@@ -48,7 +48,9 @@ server.put("/produto/:id", (req, res) => {
 });
 
 server.delete('/produto/:id',(req,res)=>{
-  
+  const {id} = req.params;
+  const produto = db.excluir(id)
+  return res.status(200).send(produto)
 })
 
 server
