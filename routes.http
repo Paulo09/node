@@ -4,10 +4,10 @@ GET http://localhost:5000/produtos
 POST http://localhost:5000/produto
 
 ###
-GET http://localhost:5000/produto/9d387e84-c995-4f54-854e-84c637a15e01
+GET http://localhost:5000/produto/dd609687-e3c7-42aa-be5f-5d54a1f37b42
 
 ###
-PUT http://localhost:5000/produto/b8551173-2862-470e-8da1-23f37d4886d2
+PUT http://localhost:5000/produto/dd609687-e3c7-42aa-be5f-5d54a1f37b42
 Content-Type: 'application/json'
 
 {
@@ -15,3 +15,6 @@ Content-Type: 'application/json'
     "modelo": "Air Force 2",
     "preco": 2800
 }
+
+###
+DELETE http://localhost:5000/produto/dd609687-e3c7-42aa-be5f-5d54a1f37b42
