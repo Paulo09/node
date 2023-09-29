@@ -47,6 +47,10 @@ server.put("/produto/:id", (req, res) => {
   return res.status(200).send(produtoAtualizado)
 });
 
+server.delete('/produto/:id',(req,res)=>{
+  
+})
+
 server
   .listen({
     port,

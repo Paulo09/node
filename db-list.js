@@ -41,5 +41,9 @@ export class DataBaseTemp {
     return produtoBD
   };
 
-  excluir = () => {};
+  excluir = (idParam) => {
+    let produto = this.produtos.findIndex(produto => produto.id === idParam)
+    this.produtos.splice()
+
+  };
 }
